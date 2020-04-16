@@ -1,24 +1,26 @@
 body {
   font-family: 'Playfair Display', 'Sans-serif';
 }
-.header-nav {
-  display: inline-block;
+.menu {
   text-decoration: none;
-  margin: 150px;
+  margin: 50px;
+  display: inline-block;
+  text-align: center;
 }
-.Lyfestyle-1 {
+
+.Cards {
   width: 960px;
-  margin: 150px;
-}
-.Photodiary {
-  width: 960px;
-  margin: 150px;
-}
-.Lyfestyle-2 {
-  width: 960px;
-  margin: 150px;
+  margin: auto;
+  display: inline-block;
+  padding: 60px;
+  justify-content: space-between;
 }
 .article {
   width: 470px;
   display: inline-block;
+  text-justify: space-between;
+}
+.button-main {
+  text-align: center;
+  margin: 60px;
 }
