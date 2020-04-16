@@ -4,11 +4,21 @@ body {
 .header-nav {
   display: inline-block;
   text-decoration: none;
-  height: ;
+  margin: 150px;
 }
-.section-1 {
+.Lyfestyle-1 {
+  width: 960px;
+  margin: 150px;
 }
-.section-2 {
+.Photodiary {
+  width: 960px;
+  margin: 150px;
 }
-.sectio-3 {
+.Lyfestyle-2 {
+  width: 960px;
+  margin: 150px;
+}
+.article {
+  width: 470px;
+  display: inline-block;
 }
