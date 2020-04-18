@@ -1,26 +1,97 @@
 body {
-  font-family: 'Playfair Display', 'Sans-serif';
+  font-family: 'Playfair Display', 'Ubuntu', 'Sans-serif';
 }
 .menu {
+  padding-left: 540px;
+  width: 960px;
+  line-height: 1.15;
+}
+.menu :hover {
+  color: #03a9f4;
+}
+.list-item {
+  list-style: none;
   text-decoration: none;
-  margin: 50px;
+  margin: 60px;
   display: inline-block;
   text-align: center;
+  font-size: 14px;
+  font-family: 'Playfair Display';
+  color: #626262;
 }
-
-.Cards {
+.main-wraper {
   width: 960px;
   margin: auto;
+}
+.section-wraper {
+  width: 960px;
+  padding: 0px;
+  margin: auto;
   display: inline-block;
-  padding: 60px;
-  justify-content: space-between;
+  box-sizing: content-box;
 }
 .article {
-  width: 470px;
+  line-height: 1.15;
+  box-sizing: border-box;
   display: inline-block;
-  text-justify: space-between;
+  width: 420px;
+  margin-right: 60px;
+  margin-bottom: 120px;
+  padding: auto;
+  font-size: 0px;
 }
+.bottom-article {
+  line-height: 1.15;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 420px;
+  padding: 0px;
+  font-size: 0px;
+  margin-right: 60px;
+  margin-bottom: 58px;
+}
+.logo {
+  margin: 30px 0px 40px 0px;
+  font-size: 14px;
+  font-family: 'Ubuntu' 'Sans-serif';
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+}
+.logo-2 {
+  line-height: 1.15;
+  font-family: 'Playfair Display', serif;
+  font-weight: 420;
+  font-size: 30px;
+  color: #626262;
+  margin-bottom: 40px;
+}
+.content {
+  font-family: 'PlayfairDisplay';
+  color: rgb(98, 98, 98);
+  box-sizing: border-box;
+  font-family: 'Playfair Display', sans-serif;
+  color: #626262;
+  font-size: 14px;
+  font-weight: 420;
+  line-height: 24px;
+}
+.right {
+  margin-right: 0;
+}
+
 .button-main {
-  text-align: center;
-  margin: 60px;
+  line-height: 1.15;
+  font-size: 0px;
+  display: inline-block;
+  margin: 20px 370px 70px;
+}
+.Load_more {
+  text-transform: none;
+  border: 1px solid #626262;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0px;
+  padding: 18px 28px;
 }
