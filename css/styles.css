@@ -1,23 +1,29 @@
 body {
   font-family: 'Playfair Display', 'Ubuntu', 'Sans-serif';
 }
-.menu {
-  padding-left: 540px;
-  width: 960px;
-  line-height: 1.15;
-}
 .menu :hover {
   color: #03a9f4;
 }
-.list-item {
-  list-style: none;
-  text-decoration: none;
-  margin: 60px;
-  display: inline-block;
+li:nth-child(4) {
+  margin-right: 0px;
+}
+article:nth-child(2) {
+  margin-right: 0px;
+}
+.menu {
+  padding: 70px 0px 100px;
   text-align: center;
+}
+.list-item {
+  text-align: center;
+
+  display: inline-block;
+  margin-right: 110px;
   font-size: 14px;
   font-family: 'Playfair Display';
   color: #626262;
+  list-style: none;
+  text-decoration: none;
 }
 .main-wraper {
   width: 960px;
@@ -78,19 +84,19 @@ body {
 .right {
   margin-right: 0;
 }
-
 .button-main {
   line-height: 1.15;
   font-size: 20px;
-  display: inline-block;
-  margin: 20px 370px 70px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 0px auto 70px;
 }
 .Load_more {
   font-family: 'Playfair Display', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 10px;
-  margin: 0px;
-  padding: 30px 18px;
+  padding: 22px 24px;
   display: flex;
 }
